@@ -1,0 +1,260 @@
+
+.titulo-lista { 
+    text-align: center; 
+    margin-top: -10px; 
+    font-size: 22px; 
+    font-family: arial;
+    font-weight: bold;
+    color: #8A7645;
+}
+
+.botao-add { 
+    width: 900px;
+    text-align: center; 
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 16px; 
+    font-family: arial;
+    font-weight: bold;
+    color: #8A7645;
+}
+
+.caixa-lista {
+    width: 800px; 
+    border: 1px solid #8A7645; 
+    height: 250px; 
+    /*overflow: auto; */
+    margin: auto;
+    padding: 10px;
+}
+
+.lista-header {
+    text-align: center;
+    background-color: #e4cfb1; 
+    padding: 4px; 
+    border: 1px solid #8A7645;
+    font-size: 15px; 
+    font-family: arial;
+    font-weight: bold;
+}
+
+.lista-black {
+    background-color: #ccc69a; 
+    padding: 4px; 
+    border: 1px #fff solid;
+    font-size: 13px; 
+    font-family: arial;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.lista-white {
+    background-color: #FFF7C0; 
+    padding: 4px; 
+    border: 1px #fff solid;
+    font-size: 13px; 
+    font-family: arial;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.lista-vazia {
+    background-color: #ccc69a; 
+    padding: 4px; 
+    border: 1px #fff solid;
+    font-size: 16px; 
+    font-family: arial;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#xname {
+    font-size: 16px; 
+    font-family: arial;
+    font-weight: bold;
+    color: #DD0000;
+}
+
+.caixa-form {
+    border: 1px #fff solid;
+    width: 400px;
+    background-color: #e6dead;
+    margin: auto;
+    padding: 10px;
+    border: 1px #ccc69a dotted;
+}
+
+.field {
+    font-weight: bold;
+}
+
+.caixa-botao-submit {
+    width: 400px;
+    text-align: center;
+}
+.botao-submit {
+    width: 80px;
+    font-size: 16px;
+    border: 1px dotted #500;
+    background-color: #ccc69a;
+    margin: 8px;
+}
+
+.msg-erro {
+    margin-top: -20px;
+    margin-bottom: 5px;
+    text-align: center; 
+    font-size: 11pt; 
+    color: red;
+    background-color: #FFF7C0;
+}
+
+.botao-importar {
+    width: 180px;
+    font-size: 16px;
+    border: 1px dotted #500;
+    background-color: #ccc69a;
+    margin: 8px;
+}
+
+.caixa-item-importacao {
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+.item-importacao {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #ccc69a;
+    border-bottom: 1px dotted black;
+}
+
+.filtro-clientes {
+    width: 700px;
+    margin: auto;
+    background-color: #ccc69a;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px dotted black;
+    font-size: 16px;
+}
+
+.cliente-lista { }
+.cliente-lista-pedido { cursor: pointer; }
+.colbusca { }
+
+.caixa-form-pedido {
+    border: 1px #fff solid;
+    width: 800px;
+    background-color: #e6dead;
+    margin: auto;
+    padding: 10px;
+    border: 1px #ccc69a dotted;
+}
+
+.titulo-sep-dados {
+    text-align: left;
+    width: 750px;
+    font-size: 15px; 
+    font-weight: bold; 
+    background-color: #c6be8d;
+    margin: auto;
+    padding: 10px;
+    padding-top: 3px;
+    border: 1px #ccc69a dotted; 
+}
+
+.caixa-sel-cliente {
+    width: 750px;
+    background-color: #d6ce9d;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px #ccc69a dotted;    
+}
+
+.grupo-campos-cliente {
+    margin-top: 10px;
+    text-align: center;
+    border: 1px dotted black;
+    padding: 5px;
+    background-color: #f6eebd;
+}
+
+.grupo-campos-cliente-linha {
+    margin-top: 10px;
+}
+
+.campo-cliente-pedido {
+    font-size: 13px; 
+    font-weight: bold; 
+    margin: 3px;
+}
+
+.campo-cliente-pedido-value {
+    font-size: 12px; 
+    border: 1px solid #500; 
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 3px; 
+    margin-right: 20px;
+    background-color: #e6dead;
+}
+
+.campo-cliente-pedido-value-total {
+    font-size: 14px; 
+    border: 1px solid #500; 
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 3px; 
+    margin-right: 20px;
+    background-color: #e6dead;
+    font-weight: bold;
+}
+
+.caixa-botao-submit-pedido {
+    width: 800px;
+    text-align: center;
+}
+
+.caixa-pedido-produto-nenhum {
+    text-align: center;
+    width: 700px;
+    font-size: 13px; 
+    font-weight: bold; 
+    background-color: #867e4d;
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px #ccc69a dotted; 
+}
+
+.lista-header-pedido-produto {
+    text-align: center;
+    background-color: #e4cfb1; 
+    padding: 4px; 
+    border: 1px solid #8A7645;
+    font-size: 12px; 
+    font-family: arial;
+    font-weight: bold;
+}
+
+.lista-pedido-produto-item {
+    background-color: #ccc69a; 
+    padding: 2px; 
+    border: 1px #fff solid;
+    font-size: 12px; 
+    font-family: arial;
+    font-weight: normal;
+    vertical-align: middle;
+}

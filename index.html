@@ -1,0 +1,111 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="css/main.css">
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="css/style.css">
+
+	<title>Aula 01</title>
+</head>
+<script src="balde.js" type="text/javascript"></script>
+<script src="jquery.js" type="text/javascript"></script>
+
+<body>
+	<div id="main">
+
+		<!-- Header -->
+		<div id="header">
+
+			<h1 id="logo">
+				<span id="titulosistema">Problema do Balde</span>
+			</h1>
+			<hr class="noscreen">
+			<h1></h1>
+
+		</div> <!-- /header -->
+
+		<!-- Tray -->
+		<div id="tray">
+
+			<ul>
+
+				<li><a href="baldes.html">Problema do Balde</a></li>
+			</ul>
+			<hr class="noscreen"></div>
+			<!-- /tray -->
+
+			<!-- Promo -->
+			<div id="col-top"></div>
+			<div id="col" class="box">
+
+				<!-- Screenshot in browser (replace tmp/browser.gif) -->
+				<div style="position:relative; float:left; width:480px; height:215px;">
+
+					<table border=0>
+						<tr>
+							<td id="balde3" style="padding: 10px;"><img src="imagens/balde3-0.png" width=200 alt=""></td>
+							<td id="balde5" style="padding: 10px;"><img src="imagens/balde5-0.png" width=200 alt=""></td>
+						</tr>
+					</table>
+
+					<table border=0 style="font-size: 12px; border: 1px solid black;">
+						<tr>
+							<td style="padding: 0px; width: 150px;"><h2>Comandos</h2></td>
+							<td style="padding: 0px;"><h2>Descrição</h2></td>
+						</tr>
+						<tr>
+							<td style="padding: 0px; font-weight: bold;">EncheBalde3</td>
+							<td style="padding: 0px;">Enche Completamente o Balde 3.</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px; font-weight: bold;">EncheBalde5</td>
+							<td style="padding: 0px;">Enche Completamente o Balde 5.</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px; font-weight: bold;">EsvaziaBalde3</td>
+							<td style="padding: 0px;">Esvazia Completamente o Balde 3.</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px; font-weight: bold;">EsvaziaBalde5</td>
+							<td style="padding: 0px;">Esvazia Completamente o Balde 5.</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px; font-weight: bold;">DespejaBalde3Em5</td>
+							<td style="padding: 0px;">Despeja o conteúdo do Balde 3 p/ o Balde 5.</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px; font-weight: bold;">DespejaBalde5Em3</td>
+							<td style="padding: 0px;">Despeja o conteúdo do Balde 5 p/ o Balde 3.</td>
+						</tr>
+					</table>
+
+				</div>
+
+				<div style="float:Left; width:200px; padding-top:15px; line-height:1.7;">
+
+					<h2 id="slogan">Problema do Balde</h2> <br>
+
+					<div id="msg" style="width: 300px; border: 1px solid black; padding: 2px; margin: 3px;"><strong>Mensagem:</strong></div>
+
+					<textarea id="texto" rows=15 cols=50></textarea> <br><br>
+					<input id="tempo" type="checkbox" name="tempo" value="ok" /> Ver os Passos<br>
+					<button type="button" onclick="executar();">Executar</button>
+					<button type="button" onclick="esvaziaBalde3(); esvaziaBalde5(); alteraBaldes();">Esvaziar Baldes</button>
+
+				</div> <!-- /col-text -->
+
+			</div> <!-- /col -->
+			<div id="col-bottom"></div>
+
+			<!-- Footer -->
+			<div id="footer">
+				<p class="f-right">
+					Prof. Dr. Marcelo M. Amorim
+				</p>
+				<p>Copyright © 2021, All Rights Reserved ®</p>
+
+			</div> <!-- /footer -->
+
+		</div> <!-- /main -->
+
+	</body></html>
